@@ -11,6 +11,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var changeBackgroundColor: UIButton!
     
+    @IBAction func changeBackgroundColorTapped(_ sender: UIButton) {
+            let randomColor = changeColor()
+            view.backgroundColor = randomColor
+        }
+    @IBAction func changeButton(_ sender: Any) {
+        let randomColor = changeColor()
+        view.backgroundColor = randomColor
+        
+    }
+    
     func changeColor() -> UIColor{
 
             let red = CGFloat.random(in: 0...1)

@@ -47,6 +47,10 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" red="0.1333333333" green="0.090196078430000007" blue="0.47843137250000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeBackgroundColorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x3E-29-JNs"/>
+                                    <action selector="changeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTY-rx-IKU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
